@@ -13,7 +13,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 connectDB();
 
-// app.use(cors());
+app.use(cors());
 app.use(json());
 
 app.use('/api/products', protectedRoutes);
