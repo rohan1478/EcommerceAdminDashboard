@@ -68,9 +68,9 @@
     Legend
   )
 
-  import { pieData, pieOptions } from './pieChartData'
+  import { pieData, pieOptions } from './PieChartData'
   import { barOptions, getFilteredBarData } from './BarChartData'
-  import { lineData, lineOptions } from './lineChartData'
+  import { lineData, lineOptions } from './LineChartData'
 
   export default defineComponent({
     name: 'CombinedChart',
