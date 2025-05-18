@@ -7,6 +7,7 @@ Can be previewed live at https://projectconversationtool-web.onrender.com/
 ## Run Locally
 * System dependencies
   - Node v23
+    
 Clone the project
 
 ```bash
@@ -33,11 +34,29 @@ Go to the project directory
 **Make sure you're inside the API directory.**
 
 
+## For FrontEnd
+
+### 1. **Navigate to UI Directory**
+```sh
+npm install
+npm run build
+npm run dev
+```
+
+### Note: 
+**Make sure you're inside the UI directory.**
+
+
+
 ## Screenshots
+<img width="1792" alt="Image" src="https://github.com/user-attachments/assets/9c23599c-668e-4ab7-aed8-fd49c2cbf7d2" />
+<img width="1792" alt="Image" src="https://github.com/user-attachments/assets/162bd1e8-b672-4273-a9f0-73034fde9f57" />
+<img width="1792" alt="Image" src="https://github.com/user-attachments/assets/a66c4a9a-5b52-489c-9619-9e06a5ec5c80" />
+<img width="1792" alt="Image" src="https://github.com/user-attachments/assets/45a513be-b532-4298-bf4a-a93c78960e9b" />
 
 
 ## Appendix
 
-Just a heads up, since this uses render as a hosting  provider. Please wait up to 2-3 minute if the webpage doesnt load. Here's the official statement
+Just a heads up, since this uses render as a hosting  provider. Please wait up to one minute if the webpage doesnt load. Here's the official statement
 
 "We run free services by letting them sleep when there’s no traffic — allowing us to offer our powerful, scalable platform free for you to try. However, each time your service starts again, it can take up to a minute it to get back online."  
